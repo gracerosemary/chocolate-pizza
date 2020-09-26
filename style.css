@@ -1,0 +1,119 @@
+.header {
+    display: block;
+    margin: auto;
+}
+
+body {
+    max-width: 900px;
+    display: block;
+    margin: 0px auto;
+}
+
+#logo {
+    max-width: 380px;
+    display: inline;
+    margin-right: auto;
+}
+
+#blogName {
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
+    margin-top: 20px;
+}
+
+#subheader {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.iconLinks{
+    float: right;
+    margin-top: 20px;
+  }
+
+.print {
+    float: right;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+.line {
+    height: 10px;
+    background: repeating-linear-gradient(45deg, #fff, #fff 30%, #000 30%, #000 60%);
+    background-size: 5px 5px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: .1px;
+    line-height: 50%;
+    font-size: 60px;
+}
+
+h2 {
+    display: block;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: gray;
+    max-width: 500px;
+    line-height: 5%;
+}
+
+.indent {
+    text-indent: 2.2em; 
+}
+
+.ingredients {
+    background-image: url("assets/list-bg.png");
+    background-repeat: no-repeat;
+    margin-bottom: -40px;
+    margin-top: 25px
+  }
+
+ul {
+    list-style: none;
+    columns: 2;
+    column-gap: 40px;
+    height: 305px;
+    padding: 50px 80px 0px 142px;
+  
+  }
+
+li {
+    font-family: "comic sans ms";
+    font-size: 20px;
+    color: #666350;
+  }
+  
+button {
+    float: right;
+    background-color: #BC7058;
+    width: 145px;
+    height: 35px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    margin-top: -75px;
+    padding: 10px;
+  }
+
+footer {  
+    margin: 100px auto 0px auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+.solidLine {
+    background-color: lightgray;
+    width: 430px;
+    height: 2px;
+    display: inline-block;
+}
